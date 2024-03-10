@@ -1,44 +1,68 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
 }
-form{
-    width: 400px;
-    height: 400px;
-    background-color: brown;
-    padding-top: 20px;
-    margin: 50px auto;
-}
-
-h1{
-    color: white;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 30px;
+form {
+  width: 400px;
+  height: 400px;
+  background-color: brown;
+  padding-top: 20px;
+  margin: 50px auto;
 }
 
-input{
-    font-size: 16px;
-    padding: 8px;
-    display: flex;
-    margin: 10px auto;
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
-label{
-    color: white;
-    font-size: 16px;
-    text-align: center;
-    display: block;
-    margin: 15px;
+input {
+  font-size: 16px;
+  padding: 8px;
+  display: flex;
+  margin: 10px auto;
 }
 
-input[type="button"]{
-    width: 100px;
-    margin-top: 20px;
-    font-size: 20px;
-    display: block;
-    background-color: chocolate;
-    cursor: pointer;
+label {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  display: block;
+  margin: 15px;
+}
+
+input[type="button"] {
+  width: 100px;
+  margin-top: 20px;
+  font-size: 20px;
+  display: block;
+  background-color: chocolate;
+  cursor: pointer;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: brown;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color: blue;
 }
