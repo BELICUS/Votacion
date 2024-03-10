@@ -4,6 +4,16 @@ const users = [
     user_name: "juan",
     user_pass: "1234",
   },
+  {
+    user_id: "2",
+    user_name: "pedro",
+    user_pass: "1234",
+  },
+  {
+    user_id: "3",
+    user_name: "belicus",
+    user_pass: "1234",
+  },
 ]
 const USERS = JSON.parse(localStorage.getItem("users")) || users
 function loguear() {
